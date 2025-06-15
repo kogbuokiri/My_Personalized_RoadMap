@@ -11,13 +11,14 @@ package Two_Pointers;
 //         this.next = null;
 //     }
 // }
-import ds_v1.LinkedList.ListNode;
+
 import java.util.*;
 
 class Solution {
     public static ListNode removeNthLastNode(ListNode head, int n) {
         
         // Replace this placeholder return statement with your code
+        //1234
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode slow = dummy;

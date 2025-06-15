@@ -2,7 +2,7 @@ package Two_Pointers;
 
 import java.util.*;
 
-public class Solution{
+public class Valid_Palindrome{
     public static boolean isPalindrome(String s) {
         int left = 0, right = s.length() - 1;
 
